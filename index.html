@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simon Says Game</title>
+    <link rel="icon" href="./simon.jpg">
+
+</head>
+
+<body>
+    <!-- Preloader Section -->
+    <div id="preloader">
+        <img src="pre.svg" style="height: 80px;">
+        <p>Loading...</p>
+    </div>
+
+    <!-- Intro Page -->
+    <div class="intro-screen" id="content" style="display: none;">
+
+        <h1 id="intro-h1">Simon Game</h1>
+
+        <img src="simon-game-card.png" alt="Simon Game" class="intro-img" />
+        <h2 class="word" id="intro-h2">Do what Simon Says...</h2><br><br>
+        <p class="word" id="intro-p">Follow the pattern of lights and sounds<br>
+            for as long as you can... if you can!
+        </p>
+        <br><br>
+
+        <button id="play-btn">:: PLAY ::</button>
+    </div>
+
+    <div class="btn-container" id="Container" style="display: none;">
+
+        <h1>Simon Game</h1><br>
+        <h2 id="h2">Press any Key to start the Game</h2>
+
+            <div class="simon-game">
+                <div type="button" class="btn red" id="red"></div>
+                <div type="button" class="btn green" id="green"></div>
+                <div type="button" class="btn yellow" id="yellow"></div>
+                <div type="button" class="btn blue" id="blue"></div>
+                <div class="center-label">Simon</div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
