@@ -34,13 +34,13 @@ Make a mistake? Game over! Restart and try again.
 
 simon-says-game/
 │
-├── 📄index.html              # Main HTML file
-├── 📄style.css                # Styling for game
-├── 📄app.js                   # Game logic and interactivity
-├── 📁sounds/                 # Sound effects
+├── 📄index.html              
+├── 📄style.css                
+├── 📄app.js                   
+├── 📁sounds/                 
 │        
-│── 📄pre.svg               # pre-loader image
-│── 📄simon-game-card.png   # intro image
-|── 📄simon.jpg             #logo image
-└── 📄README.md               # This file
+│── 📄pre.svg              
+│── 📄simon-game-card.png  
+|── 📄simon.jpg             
+└── 📄README.md              
 
